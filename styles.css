@@ -1,0 +1,17 @@
+.header {
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-second, a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
