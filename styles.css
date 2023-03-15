@@ -7,6 +7,8 @@ body {
     padding: 0;
 }
 
+/*header*/
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -33,6 +35,8 @@ ul {
 a {
     text-decoration: none;
 }
+
+/*hero section*/
 
 .hero {
     background-color: #1F2937;
@@ -69,4 +73,28 @@ a {
     width: 100px;
     margin: 0;
     padding: 0;
+}
+
+/*info section*/
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.img {
+    border: 2px solid;
+    border-color: blue;
+    border-radius: 10px;
+    width: 150px;
 }
