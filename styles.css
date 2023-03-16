@@ -123,3 +123,32 @@ img {
     font-weight: bolder;
     padding-left: 350px;
 }
+
+/*call to action section*/
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 80px 150px;
+    border-radius: 10px;
+    flex-flow: row wrap;
+}
+
+.main-txt, .sub-txt {
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-button {
+    border-color: #f9faf8;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
