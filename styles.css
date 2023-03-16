@@ -41,8 +41,7 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 50px 100px 70px 100px;
 }
 
@@ -98,6 +97,13 @@ img {
     height: 150px;
     width: 150px;
     border-radius: 20px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*quote section*/
